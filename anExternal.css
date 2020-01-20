@@ -1,0 +1,60 @@
+/* Our Css Document */
+
+body {
+    background-color: lightskyblue;
+  }
+
+
+.JapanImg1 {
+    height: 50px;
+    width: 50px;
+}
+.JapanImg2 {
+    height: 50px;
+    width: 50px;
+}
+#para1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+#para2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+#foodContainer {
+    position: relative;
+}
+#japanesefood {
+    width: 500px;
+    margin: 20px;
+    transform: translate(27%, 2%);
+}
+
+#foodText {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: large;
+    text-shadow: cornsilk;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: black;
+    border-style: dotted;
+    border-width: thick;
+}
+#rcorners {
+    border-radius: 25px;
+    border: 20px solid rgb(55,57,131);
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+#floated {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
